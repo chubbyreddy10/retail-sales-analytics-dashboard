@@ -1,57 +1,42 @@
-# Retail Sales Analytics Dashboard
+# Retail Sales & Profit Performance Dashboard
 
-## Project Overview
+Analysis of retail order data to uncover sales, profit, and performance trends across categories, regions, and customer segments. Built with Python for data cleaning and exploration, with results visualized in a summary dashboard.
 
-This project focuses on analyzing retail sales data using Python and Power BI to identify business trends, customer purchasing behavior, and sales performance. The dashboard transforms raw retail data into interactive visualizations that support data-driven decision-making.
+## Key Metrics
+- **Total Sales:** 4M
+- **Total Profit:** 552.71K
+- **Total Quantity Sold:** 67K
 
----
+## Dataset
+`SuperStoreOrders.csv` — order-level retail data including sales, profit, quantity, discount, category, region, segment, customer, and product fields.
 
-## Project Objectives
-
-- Analyze retail sales performance
-- Monitor revenue trends
-- Understand customer purchasing behavior
-- Identify top-performing products
-- Build an interactive dashboard for business insights
-
----
-
-## Key Features
-
-✔️ Sales Performance Analysis
-
-✔️ Revenue Trend Analysis
-
-✔️ Customer Purchase Analysis
-
-✔️ Product Category Analysis
-
-✔️ Interactive Dashboard
-
-✔️ Business KPI Monitoring
-
----
-
-## Tools & Technologies
-
-- Python
-- Pandas
-- NumPy
+## Tools Used
+- Python (Pandas, NumPy)
 - Matplotlib
-- Seaborn
-- Power BI
+- Jupyter Notebook
 
----
+## What the Analysis Covers
+- Data cleaning: standardizing column names, converting sales to numeric, handling data type issues
+- Sales and profit breakdown by **category**, **region**, **segment**, and **year**
+- Top 10 products and top 10 customers by sales
+- Discount level vs. average profit
+- Correlation between sales, profit, discount, and quantity
+- Shipping mode distribution
 
-## Project Files
+## Key Insights
+- Technology generates the highest sales revenue among categories
+- Furniture has the lowest profitability despite solid sales
+- Sales and profit both show a steady upward trend year over year
+- Consumer segment drives the largest share of total sales
 
-- retail_sales_analysis.ipynb
-- SuperStoreOrders.csv
-- retail_dashboard.png
-- retail_dashboard_demo.mp4
+## Dashboard Preview
+![Dashboard](supertore_analysis.png)
 
----
+## How to Run
+1. Clone the repo
+2. Install dependencies: `pip install pandas numpy matplotlib`
+3. Open `retail_sales_analysis.ipynb` in Jupyter Notebook
+4. Run all cells
 
 ## Author
-
-Chubby Reddy
+Akshitha
